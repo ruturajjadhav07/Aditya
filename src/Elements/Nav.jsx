@@ -18,11 +18,11 @@ const Nav = () => {
     <>
       <nav
         className={`navbar navbar-expand-lg fixed-top mb-2 ${
-          scrolled ? "bg-white bg-opacity-25 backdrop-blur shadow-sm" : ""
+          scrolled ? "bg-white bg-opacity-90 backdrop-blur shadow-sm" : ""
         }`}
         style={{ transition: "all 0.3s ease" }}
       >
-        <div className="container-fluid">
+        <div className="container container-fluid">
           <a className="navbar-brand fw-bold" href="#">
             Name
           </a>

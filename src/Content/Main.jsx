@@ -12,7 +12,7 @@ const Main = () => {
           className="position-absolute top-0 start-0 w-100 h-100"
           style={{
             backgroundImage: `url(${image})`,
-            backgroundAttachment: "fixed", 
+            backgroundAttachment: "fixed",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
@@ -43,8 +43,8 @@ const Main = () => {
               >
                 Photography
               </h1>
-              <p className="my-4 fs-5" style={{ color: "#263149" }}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <p className="my-3 fs-5" style={{ color: "#263149" }}>
+                Let Your Memories Live Forever{" "}
               </p>
               <button className="btn border border-dark-subtle rounded shadow-sm fs-6 px-4 py-2">
                 Explore
