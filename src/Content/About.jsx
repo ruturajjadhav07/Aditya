@@ -1,13 +1,13 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import Form from "./Form"; 
-
+import Team from "./Team";
+import Form from "./Form";
 const About = () => {
   return (
     <div>
-      <div className="container py-5">
-        <div className="bg-white p-4">
+      <div className="container py-2">
+        <div className="bg-white p-3">
           <h1
             style={{
               color: "#263149",
@@ -24,9 +24,9 @@ const About = () => {
             exercitationem nobis possimus tenetur.
           </h3>
         </div>
+        <Team />
       </div>
-
-      <Form />
+      <Form/>
     </div>
   );
 };

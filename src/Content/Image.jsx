@@ -15,7 +15,7 @@ const Image = () => {
 
   return (
     <div>
-      <div className="container py-5 mt-2 mb-2" id="about">
+      <div className="container py-3 mt-2" id="about">
         <div className="d-flex flex-wrap justify-content-center align-items-start gap-4">
           {/* Left column */}
           <div className="mt-4 d-flex flex-column gap-4">
