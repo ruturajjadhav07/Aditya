@@ -56,8 +56,8 @@ const Image = () => {
             />
           </div>
         </div>
-        <About />
       </div>
+      <About />
     </div>
   );
 };

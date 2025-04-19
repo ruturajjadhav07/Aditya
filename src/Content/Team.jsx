@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <div className="container py-5">
       <h1
-        className="text-center mb-5"
+        className="mb-3"
         style={{
           color: "#263149",
           fontSize: "clamp(2.5rem, 10vw, 3rem)",
@@ -50,6 +50,7 @@ const Team = () => {
           />
         </div>
       </div>
+      {/* <h1>What we Offer...!</h1> */}
     </div>
   );
 };
